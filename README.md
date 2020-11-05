@@ -1,0 +1,2 @@
+# RouletteBot
+Roulette Discord Bot
