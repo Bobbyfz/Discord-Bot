@@ -6,6 +6,9 @@ import os
 #makes all commmands start with the prefix '.' and uses the command class in order to make commands possible
 client = commands.Bot(command_prefix = '.')
 client.remove_command('help')
+
+#token in order to be used with any bot profile
+string token = 'ENTER TOKEN HERE'
 # Events
 
 @client.event
@@ -72,4 +75,4 @@ handler .setFormatter(logging.Formatter('%(asctime)s:%(levelname)s:%(name)s: %(m
 logger.addHandler(handler)
 
 
-client.run('NzY5ODAzODIxMTY0NjU4NzA4.X5UVrQ.0HYKaP3q2fYTPY7Qn1gQuYy0fO8')
+client.run(token)
